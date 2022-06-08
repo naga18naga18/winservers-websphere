@@ -1,0 +1,7 @@
+---
+- name: Run powershell script
+  hosts: all
+
+  tasks:
+    - name: Run powershell script
+      script: files/app_restart.ps1
